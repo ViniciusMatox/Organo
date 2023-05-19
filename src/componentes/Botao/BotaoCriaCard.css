@@ -1,0 +1,44 @@
+.botao{
+   display: flex;
+   align-items: center;
+   text-align: center;
+   background-color: #6278F7;
+   color: #FFFFFF;
+   padding: 1em;
+   margin: 2.5em 0 0 1.2em;
+   border-radius: 15px;
+   border: 1px solid #FFFFFF;
+   cursor: pointer; 
+   font-family: 'Montserrat';
+   font-size: 24px;
+   font-weight: 700;
+}
+
+.botao:hover{
+    background-color: #0021dfce;
+   
+    color: #95FFD4;
+    
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+
+/* Animações do botao */
+.btn-animated {
+    animation: moveInBottom 2s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

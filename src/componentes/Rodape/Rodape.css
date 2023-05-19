@@ -1,0 +1,12 @@
+.rodape{
+    background-color: #6278F7;
+    text-align: center;
+    /* margin-left: 30em; */
+    
+}
+
+.rodape__imagem{
+    max-width: 100%;
+    position: relative;
+    
+}

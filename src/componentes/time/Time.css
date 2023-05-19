@@ -1,0 +1,23 @@
+.time{
+
+    text-align: center;
+    padding: 32px;
+
+}
+
+.section__time__titulo{
+    font-size: 32px;
+    border-bottom: 4px solid #57C278;
+    display: inline-block;
+    padding-bottom:1em ;
+}
+
+.colaboradores__time{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+    align-items: center;
+    justify-content: center;
+    margin: 32px 0;
+}
+

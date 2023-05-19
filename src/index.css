@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+:root{
+  --fonte-titulos:'Prata', serif;
+  --fonte-textos-corridos:'Montserrat', sans-serif;
+  --azul-principal: #6278F7;
+  --verde-claro: #95FFD4;
+  --rosa-claro: #F2F2F2;
+  --cor-programaçao: #57C278;
+  --cor-front-end: #82CFFA;
+  --cor-data: #A6D157;
+  --cor-devops: #E06B69;
+  --cor-ux: #DB6EBF;
+  --cor-mobile:#FFBA05;
+  --cor-inovacao: #FF8A29; 
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

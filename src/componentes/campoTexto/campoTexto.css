@@ -1,0 +1,19 @@
+.campo-formulario{
+    margin: 1em;
+}
+
+.campo-formulario label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.campo-formulario input{
+    background-color: #fff;
+    box-shadow: 10px 10px 30px rgba(139, 123, 123, 0.534) ;
+    width: 100%;
+    border: none;
+    font-size: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+}
